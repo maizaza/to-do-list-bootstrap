@@ -1,0 +1,12 @@
+.task-card {
+    transition: transform 0.2s;
+}
+
+.task-card:hover {
+    transform: translateY(-2px);
+}
+
+.completed-task {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
